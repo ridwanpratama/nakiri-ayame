@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #f1f1f1;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.card-container {
+    width: 300px;
+    height: 430px;
+    background: #FFF;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px pink;
+    overflow: hidden;
+    display: inline-block;
+}
+
+a {
+    color: #ff6c5e;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    color: #ff6c5e;
+    margin-bottom: 30px;
+}
